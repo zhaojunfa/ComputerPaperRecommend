@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>$(EXECUTABLE_NAME)</string>
+	<string>计算机论文搜索推荐</string>
 	<key>CFBundleIconFiles</key>
 	<array>
 		<string>icon.png</string>

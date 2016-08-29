@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D7A5B8B1D703C1400D122C5 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D7A5B8A1D703C1400D122C5 /* 01.png */; };
-		2D9F65FE1D71C7D200B08087 /* RegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F65FD1D71C7D200B08087 /* RegisterView.m */; };
+		2D2F52B71D7413420063750F /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F52B61D7413420063750F /* 01.png */; };
+		2D9F65FE1D71C7D200B08087 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F65FD1D71C7D200B08087 /* RegisterViewController.m */; };
 		2DAD82EA1D6AD90C00204866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD82E91D6AD90C00204866 /* main.m */; };
 		2DAD82ED1D6AD90C00204866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD82EC1D6AD90C00204866 /* AppDelegate.m */; };
 		2DAD82F01D6AD90C00204866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD82EF1D6AD90C00204866 /* ViewController.m */; };
@@ -17,7 +17,7 @@
 		2DAD82F81D6AD90C00204866 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAD82F61D6AD90C00204866 /* LaunchScreen.storyboard */; };
 		2DAD83031D6AD90C00204866 /* ComputerPaperRecommenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD83021D6AD90C00204866 /* ComputerPaperRecommenderTests.m */; };
 		2DAD830E1D6AD90C00204866 /* ComputerPaperRecommenderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD830D1D6AD90C00204866 /* ComputerPaperRecommenderUITests.m */; };
-		2DD262981D6DC47600C496A4 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD262971D6DC47600C496A4 /* LoginView.m */; };
+		BB1513DF1D731F3B004237D4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1513DE1D731F3B004237D4 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2D7A5B8A1D703C1400D122C5 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01.png; path = ../../01.png; sourceTree = "<group>"; };
-		2D9F65FC1D71C7D200B08087 /* RegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterView.h; sourceTree = "<group>"; };
-		2D9F65FD1D71C7D200B08087 /* RegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterView.m; sourceTree = "<group>"; };
+		2D2F52B61D7413420063750F /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01.png; path = ../../../Desktop/01.png; sourceTree = "<group>"; };
+		2D9F65FC1D71C7D200B08087 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		2D9F65FD1D71C7D200B08087 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		2DAD82E51D6AD90C00204866 /* ComputerPaperRecommender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComputerPaperRecommender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAD82E91D6AD90C00204866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2DAD82EB1D6AD90C00204866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,8 +57,8 @@
 		2DAD83091D6AD90C00204866 /* ComputerPaperRecommenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComputerPaperRecommenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAD830D1D6AD90C00204866 /* ComputerPaperRecommenderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComputerPaperRecommenderUITests.m; sourceTree = "<group>"; };
 		2DAD830F1D6AD90C00204866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DD262961D6DC47600C496A4 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
-		2DD262971D6DC47600C496A4 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		BB1513DD1D731F3B004237D4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BB1513DE1D731F3B004237D4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,15 +116,11 @@
 		2DAD82E71D6AD90C00204866 /* ComputerPaperRecommender */ = {
 			isa = PBXGroup;
 			children = (
+				BB1513DC1D731EF0004237D4 /* View */,
+				BB1513DB1D731EDD004237D4 /* ViewController */,
 				2D9F65FB1D71C0FE00B08087 /* ThirdSDK */,
 				2DAD82EB1D6AD90C00204866 /* AppDelegate.h */,
 				2DAD82EC1D6AD90C00204866 /* AppDelegate.m */,
-				2DAD82EE1D6AD90C00204866 /* ViewController.h */,
-				2DAD82EF1D6AD90C00204866 /* ViewController.m */,
-				2DD262961D6DC47600C496A4 /* LoginView.h */,
-				2DD262971D6DC47600C496A4 /* LoginView.m */,
-				2D9F65FC1D71C7D200B08087 /* RegisterView.h */,
-				2D9F65FD1D71C7D200B08087 /* RegisterView.m */,
 				2DAD82F11D6AD90C00204866 /* Main.storyboard */,
 				2DAD82F41D6AD90C00204866 /* Assets.xcassets */,
 				2DAD82F61D6AD90C00204866 /* LaunchScreen.storyboard */,
@@ -137,7 +133,7 @@
 		2DAD82E81D6AD90C00204866 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2D7A5B8A1D703C1400D122C5 /* 01.png */,
+				2D2F52B61D7413420063750F /* 01.png */,
 				2DAD82E91D6AD90C00204866 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -159,6 +155,26 @@
 				2DAD830F1D6AD90C00204866 /* Info.plist */,
 			);
 			path = ComputerPaperRecommenderUITests;
+			sourceTree = "<group>";
+		};
+		BB1513DB1D731EDD004237D4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2D9F65FC1D71C7D200B08087 /* RegisterViewController.h */,
+				2D9F65FD1D71C7D200B08087 /* RegisterViewController.m */,
+				2DAD82EE1D6AD90C00204866 /* ViewController.h */,
+				2DAD82EF1D6AD90C00204866 /* ViewController.m */,
+				BB1513DD1D731F3B004237D4 /* LoginViewController.h */,
+				BB1513DE1D731F3B004237D4 /* LoginViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		BB1513DC1D731EF0004237D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +280,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D7A5B8B1D703C1400D122C5 /* 01.png in Resources */,
 				2DAD82F81D6AD90C00204866 /* LaunchScreen.storyboard in Resources */,
 				2DAD82F51D6AD90C00204866 /* Assets.xcassets in Resources */,
+				2D2F52B71D7413420063750F /* 01.png in Resources */,
 				2DAD82F31D6AD90C00204866 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,9 +310,9 @@
 			files = (
 				2DAD82F01D6AD90C00204866 /* ViewController.m in Sources */,
 				2DAD82ED1D6AD90C00204866 /* AppDelegate.m in Sources */,
-				2DD262981D6DC47600C496A4 /* LoginView.m in Sources */,
+				BB1513DF1D731F3B004237D4 /* LoginViewController.m in Sources */,
 				2DAD82EA1D6AD90C00204866 /* main.m in Sources */,
-				2D9F65FE1D71C7D200B08087 /* RegisterView.m in Sources */,
+				2D9F65FE1D71C7D200B08087 /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
