@@ -1,13 +1,13 @@
 //
-//  RegisterView.h
+//  00.h
 //  ComputerPaperRecommender
 //
-//  Created by 赵俊法 on 16/8/27.
+//  Created by 赵俊法 on 16/8/30.
 //  Copyright © 2016年 Eight. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface RegisterViewController : UIViewController
+@interface _0 : UIView
 
 @end
