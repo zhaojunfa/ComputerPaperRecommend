@@ -8,8 +8,10 @@
 
 #import "LoginViewController.h"
 
-@interface LoginViewController ()
-
+@interface LoginViewController ()<NSURLConnectionDataDelegate>
+{
+    NSMutableData * receiveData_;
+}
 @end
 
 @implementation LoginViewController
@@ -23,11 +25,11 @@
     [_login addTarget:self action:@selector(loadWebRequest:) forControlEvents:UIControlEventTouchUpInside];
     
     //把login添加到view上
-    [self.view addSubview:_login];
+    //[self.view addSubview:_login];
     
 }
 
-- (void)loadWebRequest {//加载网络请求
+- (void)loadWebRequest : (id)sender{//加载网络请求
     //URL
     NSURL * url = [NSURL URLWithString:@"http://ml.jlu.edu.cn/prs/users/login.php"];
     //URLRequest post请求方式
@@ -49,6 +51,33 @@
      
     
 }
+
+
+//接收网络请求的返回结果response
+- (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
+{
+    NSLog(@"%@",response);
+}
+
+//接收网络相应数据
+- (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
+{
+    if (receiveData_ == nil) {
+        receiveData_ = [[NSMutableData alloc] init];
+    }
+    //拼接data数据
+    [receiveData_ appendData:data];
+}
+
+//网络响应结束
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection
+{
+    NSLog(@"网络响应结束");
+    //解析
+    id obj = [NSJSONSerialization JSONObjectWithData:receiveData_ options:0 error:nil];
+    NSLog(@"%@",obj);
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

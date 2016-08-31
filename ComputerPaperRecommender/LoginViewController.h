@@ -23,6 +23,9 @@
 
 @property (strong, nonatomic) IBOutlet UIButton *forgetPassWord;
 
+@property (strong, nonatomic) IBOutlet UIView *loginfatherview;
+
+
 
 
 
